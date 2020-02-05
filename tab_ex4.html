@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+    <head>
+        <title> HTML Table Design </title>
+        <style>
+            table,tr{
+                border: 1px solid black;
+            }
+            .outline{
+                border: 1px solid black;
+            }
+            img{
+                width:100px;
+            }
+            td,body{
+                text-align: center;
+                color:white;
+            }
+            .red{
+                background-color: palevioletred;
+            }
+            .green{
+                background-color: darkgreen;
+            }
+            .black{
+                background-color: black;
+            }
+            .yellow{
+                background-color: darkorange;
+            }
+            .blue{
+                background-color: blue;
+            }
+        </style>
+    </head>
+    <body class="black">
+        <table class="black">
+            <caption style="font-size: 40px;color:white"> 
+                <img src="./img/maxine.jpg"> 
+                Reclaiming my time
+                <img src="./img/maxine.jpg"> 
+            </caption>
+            <tr id="time">
+                <td> 
+                    
+                </td>
+                <td class="outline">
+                    8 am - 9 am
+                </td>
+                <td class="outline">
+                    9 am - 10 am
+                </td>
+                <td class="outline">
+                    10 am - 11 am
+                </td>
+                <td class="outline">
+                    11 am - 12 pm
+                </td>
+                <td class="outline">
+                    12 pm - 1 pm
+                </td>
+                <td class="outline">
+                    1 pm - 2 pm
+                </td>
+                <td class="outline">
+                    2 pm - 3 pm
+                </td>
+                <td class="outline">
+                    3 pm - 4 pm
+                </td>
+                <td class="outline">
+                    4 pm - 5 pm
+                </td>
+                <td class="outline">
+                    5 pm - 6 pm
+                </td>
+                <td class="outline">
+                    6 pm - 7 pm
+                </td>
+                <td class="outline">
+                    7 pm - 8 pm
+                </td>
+            </tr>
+            <tr id="Monday">
+                <td class="outline">
+                    Monday
+                </td>
+                <td class="red">
+                    Don't talk to me.
+                </td>
+                <td class="red">
+                    Still don't talk to me.
+                </td>
+                <td class="blue" colspan="2">
+                    STEM Center
+                </td>
+                <td class="green" colspan="8">
+                    Classes
+                </td>
+            </tr>
+            <tr id="Tuesday">
+                <td class="outline">
+                    Tuesday
+                </td>
+                <td class="red">
+                    Please don't talk to me.
+                </td>
+                <td class="red">
+                    Really, please don't talk to me.
+                </td>
+                <td class="green" colspan="10">
+                    I guess I'll go to class
+                </td>
+            </tr>
+            <tr id="Wednesday">
+                <td class="outline">
+                    Wednesday
+                </td>
+                <td class="red">
+                    Refer to Monday, don't talk to me
+                </td>
+                <td class="red">
+                    Must I repeat myself, don't talk to me
+                </td>
+                <td class="blue" colspan="2">
+                    STEM Center
+                </td>
+                <td class="green" colspan="8">
+                    Classes
+                </td>
+            </tr>
+            <tr id="Thursday">
+                <td class="outline">
+                    Thursday
+                </td>
+                <td colspan="12" rowspan="2">
+                    This is a mystery
+                </td>
+            </tr>
+            <tr id="Friday">
+                <td class="outline">
+                    Friday
+                </td>
+            </tr>
+            <tr id="Saturday">
+                <td class="outline">
+                    Saturday
+                </td>
+                <td class="yellow" colspan="12" rowspan="2">
+                    Hibernation
+                </td>
+            </tr>
+            <tr id="Sunday">
+                <td class="outline">
+                    Sunday
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>
